@@ -1,0 +1,18 @@
+/* Estilo  para o temporizador */
+.timer {
+    font-size: 48px;
+    text-align: center;
+    margin-top: 20%;
+    font-family: Arial, sans-serif;
+  }
+  
+  /*  contagem regressiva (urgência) */
+  .timer-countdown {
+    color: orange; /* ou 'red' para maior energia */
+  }
+  
+  /*  quando o tempo acabar (conclusão/sucesso) */
+  .timer-ended {
+    color: green; /* verde para uma sensação mais tranquila */
+  }
+  
