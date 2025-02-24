@@ -1,0 +1,47 @@
+/* Estilo para o formulário */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f7f7f7;
+  }
+  
+  form {
+    width: 300px;
+    margin: 50px auto;
+    padding: 20px;
+    background-color: #fff;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+  }
+  
+  .form-group {
+    margin-bottom: 15px;
+  }
+  
+  label {
+    display: block;
+    margin-bottom: 5px;
+  }
+  
+  input {
+    width: 100%;
+    padding: 8px;
+    box-sizing: border-box;
+  }
+  
+  /* Feedback visual para erro */
+  input.error {
+    border: 2px solid red;
+  }
+  
+  /* Feedback visual para campo válido */
+  input.valid {
+    border: 2px solid green; 
+  }
+  
+  /* Mensagem de erro em vermelho */
+  .error-message {
+    font-size: 14px;
+    color: red;
+    margin-top: 5px;
+  }
+  
