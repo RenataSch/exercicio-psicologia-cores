@@ -1,0 +1,78 @@
+/* Reset básico */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
+  /* Definindo o body como container flex com quebra automática de linha */
+  body {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    font-family: Arial, sans-serif;
+  }
+  
+  /* Cabeçalho: h1 com 100% de largura e cor que transmite confiança (azul escuro) */
+  h1 {
+    flex-basis: 100%;
+    background-color: #1A237E; /* Azul escuro */
+    color: white;
+    text-align: center;
+    padding: 20px;
+  }
+  
+  /* Parágrafo como parte da coluna esquerda (70% de largura) */
+  p {
+    flex-basis: 70%;
+    padding: 20px;
+  }
+  
+  /* Imagem como parte da coluna direita (30% de largura) */
+  img {
+    flex-basis: 30%;
+    padding: 20px;
+    max-width: 100%; /* Garante que a imagem se ajuste ao espaço */
+  }
+  
+  /* Lista ordenada como parte da coluna esquerda (70% de largura) */
+  ol {
+    flex-basis: 70%;
+    padding: 20px;
+  }
+  
+  /* Rodapé: link com 100% de largura e cor de fundo neutra */
+  a {
+    flex-basis: 100%;
+    background-color: #f0f0f0; /* Cinza claro */
+    color: blue; /* Azul para links interativos */
+    text-align: center;
+    padding: 20px;
+    text-decoration: none;
+  }
+  
+  /* Estilos para botões (caso haja algum, exemplo de interatividade com laranja) */
+  button {
+    background-color: orange;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 4px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+  }
+  button:hover {
+    background-color: #cc7000;
+  }
+  
+  /* Responsividade: para telas com largura menor que 600px, todos os itens ocupam 100% */
+  @media (max-width: 600px) {
+    body {
+      background-color: #fff; /* Fundo neutro para telas pequenas */
+    }
+    h1, p, img, ol, a {
+      flex-basis: 100%;
+      padding: 10px;
+    }
+  }
+  
